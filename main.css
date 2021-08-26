@@ -1,0 +1,499 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* FONTS */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/* CSS for top-bar */
+.top-bar{
+  
+   
+}
+
+.top-bar-menu{
+    text-align:right;
+    list-style:none;
+    max-width: 1170px;
+    margin: 0;
+    margin-left: 190px;
+}
+
+.top-bar-menu > li{
+   display:inline-block;
+   margin-right: 6px;
+}
+
+.top-bar-menu > li > a{
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+   
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0 10px;
+    display: block;
+}
+
+.top-bar-menu > li:hover > a{
+    background-color:#2a5caa;
+    color: white;
+    transition:0.4s;
+
+}
+/* End CSS for top-bar */
+
+/* CSS for top-nav */
+
+.top-nav{
+    
+    background-color:#222222;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.top-nav .top-nav-logo{
+    padding-top: 13px;
+    margin-left: 68px;
+}
+
+.top-nav .top-nav-image{
+    width: 135px;
+    height: 34px;
+}
+
+.top-nav .top-nav-menu{
+    margin:  0px;
+    margin-right: 26px;
+    padding: 0;
+}
+
+.top-nav .top-nav-menu > li{
+    display: inline-block;
+}
+
+.top-nav .top-nav-menu > li > a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    line-height:62px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 48px;
+
+
+}
+
+.top-nav .top-nav-menu > li:hover > a{
+    color: #fdb834;
+    transition:0.4s;
+}
+
+.top-nav .top-nav-menu .active{
+    color: #fdb834;
+}
+
+
+
+/* End CSS for top-nav */
+
+/* CSS for About */
+
+.about{}
+.about .about-content{
+    margin-top: 150px;
+    margin-left: 67px;
+}
+.about .about-content a{
+    text-decoration:none;
+}
+.about .about-content .about-title{
+    font-size: 35px;
+    font-weight:700;
+    color: #2a5caa;
+    margin: 0;
+}
+.about .about-content .about-description{
+    text-align: left;
+    margin: 50px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+   
+}
+.about .about-content button{
+    width:200px;
+    height: 52px;
+    color: white;
+    background-color:#2a5caa;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    border-radius:4px;
+    margin-right: 22px;
+}
+
+.about .about-image{
+    margin-top: 42px;
+    margin-left: -62px;
+    width:500px;
+}
+
+/* End CSS for About */
+
+/* CSS for Services */
+.service{
+    margin-top: 88px;
+    margin-left: 130px;
+}
+.service .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+ 
+}
+
+.service-content{
+    display:flex;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    padding: 15px;
+    height: 100%;
+}
+
+.service-content a{
+    text-decoration:none;
+}
+
+.service .service-content .service-image{
+    width: 180px;
+    margin-left: 0px;
+}
+
+.service .service-content .service-item{
+    margin-left: 30px;
+    width: 317px;
+}
+
+.service .service-content .service-item .service-item-title{
+    font-size: 22px;
+    color: #2a5caa;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.service .service-content .service-item .service-item-description{
+    font-size: 14px;
+    
+}
+
+.service .service-others{
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    width: 267px;
+    padding: 5px;
+    display:flex;
+}
+
+.service .service-others a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+
+
+.service .service-others .service-others-image{}
+.service-others .service-others-name-block{
+    display: flex;
+}
+.service .service-others .service-others-name{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 36px;
+}
+
+
+/* End CSS for Services */
+
+/* CSS for technology */
+.technology {
+    margin-left: 130px;
+}
+
+.technology .technology-content{
+    width: 1143px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+.technology .technology-content .line{
+    height:2px;
+    background-color:#E8E8E8;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-left: 21px;
+    width: 1121px;
+}
+
+
+
+.technology .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 74px;
+}
+
+.technology .technology-content .technology-content-logo{
+    display: flex;
+}
+
+.technology .technology-content .technology-image {
+    width:78px;
+    margin:auto;
+    padding: 30px 0;
+}
+
+.technology .technology-content .technology-item {
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    height:100px;
+    display: flex;
+    border-radius: 10px;
+    margin-right: -15px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.technology .technology-content .technology-item .technology-logo {
+    width: 75px;
+    margin: auto;
+    padding: 0 5px;
+}
+
+
+
+
+/* End CSS for technology */
+
+/* CSS for Portfolio */
+.portfolio{
+    margin-left: 130px;
+}
+
+.portfolio .portfolio-content{
+    width: 1143px;
+}
+
+.portfolio .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 74px;
+}
+
+.portfolio .portfolio-project{
+    width: 165px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+}
+
+.portfolio .portfolio-project .portfolio-image{}
+
+.explore{
+    /* margin-left: 978px; */
+    /* margin: 20px; */
+    text-align: right;
+    margin: 16px 0;
+}
+
+.explore a{
+    font-size: 20px;
+    font-weight: 300;
+    /* color: #0a58ca; */
+    text-decoration: none;
+    color: #2a5caa;
+}
+
+.explore  img{
+    width: 21px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+
+/* End CSS for Portfolio */
+
+/* CSS for Footer */
+footer{
+    background-color: #222;
+    box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+    margin-top: 50px;
+}
+
+footer .footer-title{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.footer-content{
+    width: 1143px;
+    /* padding: 60px 0; */
+    margin-left: 65px;
+    padding-top: 60px;
+}
+
+.footer-content .footer-blog{
+    
+padding-right: 10px;
+}
+
+
+
+.footer-content .footer-blog .footer-item{
+   
+}
+
+.footer-content .footer-blog .footer-item span{
+    color: #919191;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-content .footer-blog .footer-item .footer-item-title{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-content .footer-blog .footer-item .footer-item-title:hover{
+    color: #2a5caa;
+    transition:0.4s;
+}
+
+.footer-helpful{}
+.footer-helpful .footer-nav-menu{
+
+}
+
+.footer-helpful .footer-nav-menu .footer-menu{
+    list-style-type: none;
+    padding: 0;
+ }
+
+.footer-helpful .footer-nav-menu .footer-menu li a:hover{ 
+    color: #2a5caa;
+    transition:0.4s;
+}
+
+.footer-helpful .footer-nav-menu .footer-menu li a{ 
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-contact{}
+.footer-contact .message{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.footer-contact .social-icon{
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+
+.footer-contact .social-icon li{
+    display: inline-block;
+    padding-right: 8px;
+    
+}
+
+.footer-contact .social-icon a{
+    color: white;
+    font-size: 26px;
+    
+}
+
+.footer-contact .social-icon a:hover{
+    color: #2a5caa;
+    transition:0.4s;
+}
+
+
+
+.footer-contact .footer-infocontact{
+    color: white;
+    font-size: 14px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+   
+    
+}
+
+.content-info .copyright {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.content-info .menu2{
+    list-style-type: none;
+    
+}
+
+.content-info .menu2 > li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.content-info .menu2 > li > a{ 
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* End CSS for Footer */
+
+
+
+
+
+
+
+
+
+
